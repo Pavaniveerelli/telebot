@@ -1,7 +1,7 @@
 !pip install adafruit-io --quiet
 # Import library and create instance of REST client.
 from Adafruit_IO import Client
-aio = Client('Pavani_Reddy', 'aio_XAnM42djCnNLTvGpK9usNdJONqkZ')
+aio = Client('Pavani_Reddy', 'aio_draY09CtlfwmFZtLA2t5B8amgVFY')
 
 # Send the value 100 to a feed called 'Foo'.
 aio.send('bed-light', 1)
